@@ -1,5 +1,9 @@
 <?php
 
+$file="fileserver/test.txt";
+$handler=fopen($file,"r");
+echo fread($handler,15);
+
 echo "Hello Myanmar";
 print "Hello Thailand";
 printf("Hello Indonisa",true);
