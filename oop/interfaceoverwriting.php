@@ -20,6 +20,7 @@ class startrole implements role{
         echo "i am from read role and i have to read record id = ". $this->id . "<br/>";
     }
 
+    //This is for updaterole
     public function updaterole($id, $request){
         $this->id = $id;
         $this->request = $request;

@@ -53,6 +53,7 @@ class index implements uscarinterface,japaninterface{
         $this->cars = $cars;
     }
 
+    //This is created by me for array print
     public function beautyprint(){
         echo "<pre>".print_r($this->cars,true)."</pre>";
         echo "<br/>";
@@ -65,7 +66,7 @@ class index implements uscarinterface,japaninterface{
     }
 }
 
-$arruscars = ["Ford","Chrysler","Chevrolet","Hummer","Lincoln"];
+$arruscars = ["Ford","Chrysler","Chevrolet","Hummer","Lincoln","Jeep","GMC"];
 $arrjpcars = ["Toyota","Nissan","Suzuki","Mazda","Hino"];
 
 
@@ -77,3 +78,16 @@ echo "<hr/>";
 echo "This is Japan cars";
 $obj->madeinjapan($arrjpcars);
 $obj->beautyprint();
+
+
+echo "<hr/>";
+
+
+
+require_once "anonymousfunction.php";
+require_once "arraywalk.php";
+require_once "datatypechecking.php";
+require_once "datatypecasting.php";
+require_once "objectcasting.php";
+require_once "returndatatype.php";
+require_once "class_magicgetandset.php";
