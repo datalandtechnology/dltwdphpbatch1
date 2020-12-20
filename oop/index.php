@@ -91,3 +91,11 @@ require_once "datatypecasting.php";
 require_once "objectcasting.php";
 require_once "returndatatype.php";
 require_once "class_magicgetandset.php";
+
+
+
+require_once "serializeandunserialize.php";
+require_once "class_magicsleepandwakeup.php";
+require_once "class_staticmodifier.php";
+require_once "class_magicissetandunset.php";
+require_once "class_magiccallandcallstatic.php";
