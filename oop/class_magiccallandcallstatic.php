@@ -29,6 +29,6 @@ $obj = new class_magiccallandcallstatic();
 //$obj::meth2();
 //$obj::meth2("aung aung");
 $obj::meth2(["aung aung", "kaung kaung"]);
-
+echo "<hr/>";
 
 ?>

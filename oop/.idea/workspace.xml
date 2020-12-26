@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38c3f7de-3060-4d23-bcdc-d2f06a432f3e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_magicgetandset.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_magicgetandset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_magiccallandcallstatic.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_magiccallandcallstatic.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +69,9 @@
       <workItem from="1608264289245" duration="15556000" />
       <workItem from="1608358801635" duration="4089000" />
       <workItem from="1608363073540" duration="15961000" />
-      <workItem from="1608445435849" duration="11230000" />
+      <workItem from="1608445435849" duration="11949000" />
+      <workItem from="1608938741929" duration="8829000" />
+      <workItem from="1608960441363" duration="9017000" />
     </task>
     <servers />
   </component>
@@ -86,5 +89,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

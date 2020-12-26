@@ -99,3 +99,10 @@ require_once "class_magicsleepandwakeup.php";
 require_once "class_staticmodifier.php";
 require_once "class_magicissetandunset.php";
 require_once "class_magiccallandcallstatic.php";
+
+
+require_once "class_magictostringandinvoke.php";
+require_once "class_databinding.php";
+require_once "class_constantvariable.php";
+require_once "class_abstractmethod.php";
+
