@@ -93,7 +93,6 @@ require_once "returndatatype.php";
 require_once "class_magicgetandset.php";
 
 
-
 require_once "serializeandunserialize.php";
 require_once "class_magicsleepandwakeup.php";
 require_once "class_staticmodifier.php";
@@ -106,3 +105,6 @@ require_once "class_databinding.php";
 require_once "class_constantvariable.php";
 require_once "class_abstractmethod.php";
 
+require_once "variadic.php";
+require_once "coalesce.php";
+require_once "callbackfunction.php";

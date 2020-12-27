@@ -40,4 +40,5 @@ $mych2obj = new mybabychild2();
 $mych2obj->firstabs();
 $mych2obj->secondabs();
 
+echo "<hr/>";
 ?>
