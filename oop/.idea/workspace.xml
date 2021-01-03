@@ -20,11 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38c3f7de-3060-4d23-bcdc-d2f06a432f3e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/oop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/oop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_abstractmethod.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_abstractmethod.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composerautoload/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composerautoload/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composerautoload/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/composerautoload/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composerautoload/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/composerautoload/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composerautoload/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/composerautoload/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composerautoload/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/composerautoload/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composerautoload/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/composerautoload/vendor/composer/installed.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/psr4autoload/app" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
@@ -63,9 +65,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dltwdphpbatch1\oop\psr4autoload\app" />
+      <recent name="C:\xampp\htdocs\dltwdphpbatch1\oop\psr4autoload" />
       <recent name="C:\xampp\htdocs\dltwdphpbatch1\oop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dltwdphpbatch1\oop\namespace\app" />
+      <recent name="C:\xampp\htdocs\dltwdphpbatch1\oop\namespace\app\admin" />
       <recent name="C:\xampp\htdocs\dltwdphpbatch1\oop\composerautoload\app" />
     </key>
   </component>
@@ -92,7 +98,12 @@
       <workItem from="1608983074073" duration="495000" />
       <workItem from="1608991140873" duration="5453000" />
       <workItem from="1608996813452" duration="2950000" />
-      <workItem from="1609052177204" duration="11139000" />
+      <workItem from="1609052177204" duration="12338000" />
+      <workItem from="1609600790952" duration="2081000" />
+      <workItem from="1609602950074" duration="3792000" />
+      <workItem from="1609656446345" duration="50000" />
+      <workItem from="1609656549425" duration="7692000" />
+      <workItem from="1609664330761" duration="5291000" />
     </task>
     <servers />
   </component>

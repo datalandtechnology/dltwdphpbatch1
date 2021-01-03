@@ -10,7 +10,9 @@ class ComposerStaticInit48e2b1cc41b4a53ff4ff56797d0f8772
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'class_admin' => __DIR__ . '/../..' . '/app/admin/class_admin.php',
         'class_auth' => __DIR__ . '/../..' . '/app/auth/class_auth.php',
+        'class_ebook' => __DIR__ . '/../..' . '/info/ebook/class_ebook.php',
         'class_migration' => __DIR__ . '/../..' . '/app/migration/class_migration.php',
+        'class_news' => __DIR__ . '/../..' . '/info/news/class_news.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

@@ -16,6 +16,12 @@ class index{
         $auth->accessinfo();
 
         $migration = new class_migration();
+
+        $news = new class_news();
+
+
+        $ebook = new class_ebook();
+
     }
 
 }

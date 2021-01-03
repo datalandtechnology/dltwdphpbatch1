@@ -9,5 +9,7 @@ return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'class_admin' => $baseDir . '/app/admin/class_admin.php',
     'class_auth' => $baseDir . '/app/auth/class_auth.php',
+    'class_ebook' => $baseDir . '/info/ebook/class_ebook.php',
     'class_migration' => $baseDir . '/app/migration/class_migration.php',
+    'class_news' => $baseDir . '/info/news/class_news.php',
 );
