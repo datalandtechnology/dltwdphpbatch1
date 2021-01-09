@@ -21,12 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="38c3f7de-3060-4d23-bcdc-d2f06a432f3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composerautoload/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composerautoload/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composerautoload/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/composerautoload/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composerautoload/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/composerautoload/vendor/composer/InstalledVersions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composerautoload/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/composerautoload/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composerautoload/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/composerautoload/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composerautoload/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/composerautoload/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqlioopintro/app/database/class_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/mysqlioopintro/app/database/class_db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqlioopintro/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/mysqlioopintro/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +99,8 @@
       <workItem from="1609602950074" duration="3792000" />
       <workItem from="1609656446345" duration="50000" />
       <workItem from="1609656549425" duration="7692000" />
-      <workItem from="1609664330761" duration="5291000" />
+      <workItem from="1609664330761" duration="12287000" />
+      <workItem from="1610174287920" duration="6074000" />
     </task>
     <servers />
   </component>
