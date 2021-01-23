@@ -20,8 +20,12 @@ class class_db{
 //        }
 
 
-        while($row = $stmt->fetch_object()){
-            echo "id is =  ". $row->id . " and email is = ". $row->email. "<br/>";
+//        while($row = $stmt->fetch_object()){
+//            echo "id is =  ". $row->id . " and email is = ". $row->email. "<br/>";
+//        }
+
+        while($row = $stmt->fetch_assoc()){
+            echo "id is =  ". $row["id"] . " and email is = ". $row["email"]. "<br/>";
         }
 
     }
@@ -44,10 +48,12 @@ class class_db{
         $stmt->bind_result($id,$email,$password,$status_id,$created_at);
 
         while($stmt->fetch()){
-            echo "this is ${status} user , id is = ${id} and email is = ${email} " . "<hr/>";
+            echo "this is ${status} user , id is = ${id} and email is = ${email} and status is ${status_id} " . "<hr/>";
         }
 
     }
+
+
 
     public function insertsguser($email,$password,$status_id){
         $crtdate = date("Y-m-d");
@@ -109,5 +115,94 @@ class class_db{
 
     }
 
+
+
+    public function getsguserinfo($id){
+        $stmt = $this->database->prepare("
+        SELECT
+            ur.email as useremail,
+            st.name as status_name,
+            ur.created_at as crtdate
+        FROM
+            users as ur
+        LEFT JOIN
+            status as st
+        ON
+            ur.status_id = st.id
+        WHERE
+            ur.id = ?
+        ");
+
+        $stmt->bind_param("i",$id);
+        $stmt->execute();
+        $stmt->bind_result($useremail,$status_name,$crtdate);
+
+        while($stmt->fetch()){
+            echo "this user id is = ${id} and email is ${useremail} and he or she is ${status_name} stage  and created at ${crtdate}" . "<hr/>";
+        }
+    }
+
+    public function getalluserbystatusname($status_id){
+        $stmt = $this->database->prepare("
+        SELECT
+        ur.id as userid,
+        ur.email as useremail,
+        st.name as status_name,
+        ur.created_at as crtdate
+        FROM
+        status as st
+        RIGHT JOIN
+        users as ur 
+        ON 
+        ur.status_id = st.id
+        WHERE
+        st.id = ?
+        ");
+
+
+        $stmt->bind_param("i",$status_id);
+        $stmt->execute();
+        $stmt->bind_result($userid,$useremail,$status_name,$crtdate);
+
+        while($stmt->fetch()){
+            echo "user id is ${userid} and email is ${useremail} and status is ${status_name} stage and created at ${crtdate} " . "<hr/>";
+        }
+    }
+
+
+    public function getcontactwithuser($id){
+        $stmt = $this->database->prepare("
+        SELECT
+        ct.id as contactid,
+        ur.email as user_email,
+        ct.phone as userphone,
+        ct.address as useraddress
+        FROM
+        contacts as ct
+        LEFT JOIN
+        users as ur
+        ON 
+        ct.user_id = ur.id
+        WHERE
+        ct.id = ?
+        ");
+
+        $stmt->bind_param("i",$id);
+        $stmt->execute();
+        $stmt->bind_result($contactid,$user_email,$userphone,$useraddress);
+
+        while($stmt->fetch()){
+            echo "contact id ${contactid} and email is ${user_email} and phone is ${userphone} and address is ${useraddress} ". "<hr/>";
+        }
+    }
+
+
+
+
+
+
+
+
 }
 ?>
+

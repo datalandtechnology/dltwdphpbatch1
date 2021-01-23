@@ -1,5 +1,23 @@
 <?php
 
+//if statement
+$a=10;
+$b=20;
+
+//if($a > $b){
+//    echo "Condition is OK";
+//}else{
+//    echo "Condition is false";
+//}
+
+//SHORT HAND
+if($a<$b)
+    echo "condition is true ";
+//echo "abc"; // result error
+else
+    echo "condition is false ";
+
+
 $val="black";
 $vbl=$val;
 
@@ -27,12 +45,7 @@ if($val=="red"){
 
 echo "<hr/>";
 
-/*
-this is comment line 1
-this is comment line 2
-this is comment line 3
-this is comment line 4
-*/
+
 
 if($val=="red"){
 echo "value color is " . $val;
@@ -45,17 +58,19 @@ echo "your color is ". $val;
 echo "<hr/>";
 
 //Logical Operator
+//AND(&&) OR(||) is call pipe NOT(!)
+
 $num1=40;
 $num2=20;
 $num3=0;
 
-if($num1 > $num2 ||  $num1 > $num3){
-echo "true";
+if($num1 > $num2 &&  $num1 > $num3){
+echo "it is true";
 }else{
     echo "false";
 }
 
-if($num1 < $num2 &&  $num1 > $num3){
+if($num1 < $num2 ||  $num1 > $num3){
     echo "true";
     }else{
         echo "false";
@@ -63,10 +78,10 @@ if($num1 < $num2 &&  $num1 > $num3){
 
 echo "<hr/>";
 
-if($num1 != $num2){
-    echo "true";
+if(!($num1 < $num2)){
+    echo "it is true";
     }else{
-        echo "false";
+        echo "it is false";
 }
 
 echo "<hr/>";

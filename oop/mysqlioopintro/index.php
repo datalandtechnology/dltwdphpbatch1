@@ -19,6 +19,7 @@ class index{
 
         $this->db->getusersbystatus(2);
 
+
 //        $this->db->insertsguser("coco@gmail.com","123456",1);
 
 
@@ -37,9 +38,15 @@ class index{
 //        $this->db->updateuser(38,2);
 
 
-        $this->db->deleteuser(3);
+//        $this->db->deleteuser(3);
 
 
+
+        $this->db->getsguserinfo(1);
+
+        $this->db->getalluserbystatusname(1);
+
+        $this->db->getcontactwithuser(1);
     }
 }
 
