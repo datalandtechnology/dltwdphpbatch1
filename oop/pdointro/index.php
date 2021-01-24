@@ -3,14 +3,17 @@
 //singleton design pattern
 //data abstraction layer
 require_once "vendor/autoload.php";
+
 use app\database\class_db;
 use app\database\class_dbabslayer;
 
 
-class index{
+class index
+{
     private $db;
 
-    public function __construct(){
+    public function __construct()
+    {
 //        $this->db = new class_db();
 
 //        $db1 = new class_db();
@@ -62,12 +65,36 @@ class index{
         $this->db->getallusers(2);
 
         echo "<hr/>";
-
+//
         $this->db->getsguser(1);
 
-        echo "<hr/>";
+//        echo "<hr/>";
 
-        $this->db->deletesguser(36);
+//        $this->db->deletesguser(36);
+
+                echo "<hr/>";
+
+
+//        $this->db->insertsguser("popo@gmail.com","123456",1);
+//
+//        echo "<hr/>";
+
+        $users = [
+          ["vovo@gmail.com","123456",1],
+          ["popo@gmail.com","123456",1],
+          ["bobo@gmail.com","123456",1],
+          ["roro@gmail.com","123456",1],
+          ["coco@gmail.com","123456",1]
+        ];
+
+//        $this->db->insertmultiusers($users);
+
+
+//        $this->db->updateuserstatus(42,2);
+
+
+        $this->db->getalluserbystatusname(2);
+
 
 
     }
